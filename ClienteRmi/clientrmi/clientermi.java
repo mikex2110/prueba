@@ -64,7 +64,7 @@ public class clientermi {
                                 //convertimos a string la operacion que hemos realizado para devolverla al sevidor
                                 nuevosaldo = Float.toString(operacion);
                                 //en caso de que el saldo quede negativo le preguntaremos al usuario si desea confirmar la operacion si es asi mando el saldo 
-                                //que debes actualizar en la cuenta indicada
+
                                 //invocaremos la funcion del servidor escribeSaldo pasandole como mensajes el nuevo saldo de la cuenta y el propio numero de la cuenta
                                 if (operacion>=0){
                                     vale = escRemote.escribirSaldo(nuevosaldo, numcuenta);
